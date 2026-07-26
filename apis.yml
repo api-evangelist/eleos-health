@@ -1,9 +1,33 @@
 aid: eleos-health
 name: Eleos Health
-description: Eleos Health is a company surfaced as a portfolio company of menlo-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Eleos Health is the most widely adopted AI platform in behavioral and
+  community-based healthcare. Founded in 2020 and headquartered in Waltham,
+  Massachusetts, Eleos delivers purpose-built AI workflow agents that span
+  clinical documentation, compliance, and revenue cycle management. The platform
+  embeds directly inside providers' existing web-based electronic health records
+  (EHRs) via a lightweight browser extension for both in-person and telehealth
+  sessions, turning ambient session capture or quick text summaries into
+  structured, payer-ready progress notes and cutting documentation time by
+  roughly 70%. Eleos Compliance reviews every note against common risk areas
+  (note cloning, empty notes, interventions, progress mentions, action plans,
+  and the golden thread), and its revenue cycle tooling automates eligibility
+  checks and claim protection. Deployed across 120+ care organizations in 30+
+  states, Eleos integrates without custom API builds; it is backed by Menlo
+  Ventures and Greenfield Partners.
 url: https://raw.githubusercontent.com/api-evangelist/eleos-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://eleos.health/wp-content/themes/eleos/twg/assets/images/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +36,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Behavioral Health
+- Healthcare AI
+- Clinical Documentation
+- Compliance
+- Revenue Cycle Management
+- Electronic Health Records
+- Community-Based Care
+- Mental Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,26 @@ maintainers:
 common:
 - type: Website
   url: https://eleos.health
+- type: Documentation
+  url: https://eleos.health/documentation/
+- type: Blog
+  url: https://eleos.health/resources/?_category=blog-posts
+- type: Support
+  url: https://eleos.health/contact-us/
+- type: PrivacyPolicy
+  url: https://eleos.health/privacy/
+- type: TermsOfService
+  url: https://eleos.health/terms/
+- type: TrustCenter
+  url: security/eleos-health-trust-center.yml
+- type: Compliance
+  url: https://trust.eleos.health/
+- type: DomainSecurity
+  url: security/eleos-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/eleos-health-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

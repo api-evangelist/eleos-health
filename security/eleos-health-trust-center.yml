@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.eleos.health/
+url: https://trust.eleos.health/
+certifications:
+- SOC 2
+- ISO/IEC 27001
+- ISO/IEC 42001:2023
+- HIPAA
+- NIST CSF
+responsible_disclosure: true
+documents_section: true
+evidence:
+- source: https://trust.eleos.health/
+  keywords:
+  - soc 2
+  - iso/iec 27001
+  - iso/iec 42001:2023
+  - hipaa
+  - nist csf
+  - responsible disclosure
+  - trust center
