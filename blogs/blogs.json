@@ -4,18 +4,17 @@
     {
       "source": "https://eleos.health/feed/",
       "feed_url": "https://eleos.health/feed/",
-      "title": "",
       "saved": 0,
-      "method": "feed"
+      "error": "no_feed_no_posts"
     },
     {
       "source": "https://eleos.health/documentation/",
-      "feed_url": "https://eleos.health/feed/",
+      "feed_url": "https://eleos.health/documentation/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
     }
   ],
   "post_count": 9,
-  "fetched": "2026-08-06T14:08:46Z"
+  "fetched": "2026-08-15T12:22:01Z"
 }
